@@ -1,0 +1,25 @@
+{
+  "name": "myfavoritefoodweb",
+  "version": "1.0.0",
+  "description": "Web de recetas con un contador",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./src/sass/styles.scss ./public/styles/styles.css",
+     "sass-w": "sass --watch ./src/sass:./public/styles"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oscarss15/MyFavoriteFoodWeb.git"
+  },
+  "author": "Oscar Sordo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oscarss15/MyFavoriteFoodWeb/issues"
+  },
+  "homepage": "https://github.com/Oscarss15/MyFavoriteFoodWeb#readme",
+  "devDependencies": {
+    "sass": "^1.77.2"
+  }
+}
